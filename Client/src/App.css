@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f7f8fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fbfd69;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.mean{
+  width: 400px;
+  background-color: blanchedalmond;
+  color: black;
+  margin-bottom: 10px;
+  height: 130px;
+}
+
+span{
+  padding: 10px;
+  
+}
+
+.card {
+  width: 100%;
+  background-color: #1fbb99;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  transition: 0.4s;
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+.card:hover {
+  background-color: #1fbb88;
+}
+.card_header {
+  text-align: center;
+  margin: 20px;
+}
+.card .item_game {
+  margin-bottom: 20px;
+}
+.card .item_player {
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+.card .item_score {
+  float: right;
+}
+.card_footer {
+  text-align: right;
+}
